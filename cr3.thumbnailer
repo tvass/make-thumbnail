@@ -1,0 +1,4 @@
+[Thumbnailer Entry]
+TryExec=/usr/local/bin/cr3-thumbnail.sh
+Exec=/usr/local/bin/cr3-thumbnail.sh %i %o %s
+MimeType=image/x-canon-cr3;
