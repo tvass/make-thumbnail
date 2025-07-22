@@ -23,6 +23,7 @@ $ python3 app.py /mnt/sda1/photos/2025/20250127/2J0A1537.cr3
 Set thumnail-cache to handle more storage and keep it longer:
 $ gsettings set org.gnome.nautilus.preferences thumbnail-limit 536870912000 (~500Gb)
 $ gsettings set org.gnome.desktop.thumbnail-cache maximum-age 365
+
 """
 
 import hashlib
